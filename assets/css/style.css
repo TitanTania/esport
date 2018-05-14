@@ -50,15 +50,15 @@ nav li {
 }
 
 /* Til Text og billederne til Landing Page */
-.textandpictureforLP {
+.textandpictureforLP .partners {
   display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: auto;
-  padding: 20px 100px 20px 100px;
+  justify-content: center;
 }
-/* Til par nr 1 */
-.partner1 {
+.textandpictureforLP .partners .textbox1forLP .textbox2forLP .textbox3forLP :nth-child(2n) *:last-child{
+  order: -1;
+}
+
+.partners {
 padding-bottom: 10px;
 }
 .picture1forLP {
@@ -67,43 +67,45 @@ padding-bottom: 10px;
   width: 350px;
 }
 .textbox1forLP {
-  background-color: red;
+  background-color: white;
   height: 300px;
   width: 350px;
 }
-/* Til par nr 2*/
-.partner2 {
-  padding-bottom: 10px;
-}
+
 .picture2forLP {
   background-color: blue;
   height: 300px;
   width: 350px;
 }
 .textbox2forLP {
-  background-color: red;
+  background-color: white;
   height: 300px;
   width: 350px;
 }
 
-/* Til par nr 3 */
-.partner3 {
-  padding-bottom: 10px;
-}
 .picture3forLP {
   background-color: blue;
   height: 300px;
   width: 350px;
 }
 .textbox3forLP {
-  background-color: red;
+  background-color: white;
   height: 300px;
   width: 350px;
 }
 
 /* Til den orange skæv linje */
 .orangeline {
+  margin-top: 90px;
+  margin-bottom: 500px;
   background-color: orange;
-  height: 60px;
+  height: 100px;
   width: auto;
+  transform: rotate(-6deg);
+}
+
+footer {
+  background-color: #282828;
+  height: 300px;
+  width: 100%;
 }
