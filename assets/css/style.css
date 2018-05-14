@@ -1,3 +1,22 @@
  body {
    background-color: #303030;
  }
+
+/* Til header */
+header {
+  background-color: orange;
+  height: 100px;
+  width: 100%;
+}
+
+/* Til Navbar */
+nav {
+  background-color: pink;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+nav li {
+  text-decoration: none;
+}
