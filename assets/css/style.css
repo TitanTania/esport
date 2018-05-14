@@ -12,6 +12,8 @@ header {
 /* Til Navbar */
 nav {
   background-color: pink;
+  height: auto;
+  width: 100%;
 }
 nav ul {
   display: flex;
@@ -26,4 +28,23 @@ nav li {
 
 .nav li:last-child{
   padding-right: 0px;
+}
+
+/* Til Banner */
+.banner {
+  background-color: green;
+  height: 350px;
+  width: 100%;
+}
+
+/* Til H1 ved landing page */
+.firstpartoftitle {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.secondpartoftitle {
+  color: white;
+  display: flex;
+  justify-content: center;
 }
