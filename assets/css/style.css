@@ -25,5 +25,5 @@ nav li {
 }
 
 .nav li:last-child{
-  padding-right: 0px;
+  padding-right: 0;
 }
