@@ -48,3 +48,46 @@ nav li {
   display: flex;
   justify-content: center;
 }
+
+/* Til Text og billederne til Landing Page */
+.textandpictureforLP {
+  display: flex;
+
+  justify-content: center;
+  height: 100%;
+  width: auto;
+}
+/* Til par nr 1 */
+.partner1 {
+  
+}
+.picture1forLP {
+  background-color: blue;
+  height: 50px;
+  width: auto;
+}
+.textbox1forLP {
+  height: 50px;
+  width: auto;
+}
+/* Til par nr 2*/
+.picture2forLP {
+  background-color: blue;
+  height: 50px;
+  width: auto;
+}
+.textbox2forLP {
+  height: 50px;
+  width: auto;
+}
+
+/* Til par nr 3 */
+.picture3forLP {
+  background-color: blue;
+  height: 50px;
+  width: auto;
+}
+.textbox3forLP {
+  height: 50px;
+  width: auto;
+}
