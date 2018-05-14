@@ -1,5 +1,6 @@
  body {
    background-color: #303030;
+   margin: 0;
  }
 
 /* Til header */
@@ -101,6 +102,8 @@ footer {
   background-color: #282828;
   height: 300px;
   width: 100%;
+  border-top: 2px solid;
+  border-color: #116db6;
 }
 footer h5 {
   color: white;
