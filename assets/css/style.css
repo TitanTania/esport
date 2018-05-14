@@ -54,58 +54,55 @@ nav li {
   display: flex;
   justify-content: center;
 }
-.textandpictureforLP .partners .textbox1forLP .textbox2forLP .textbox3forLP :nth-child(2n) *:last-child{
+.textandpictureforLP .partners .textboxforLP  :nth-child(2n) *:last-child{
   order: -1;
 }
 
 .partners {
 padding-bottom: 10px;
 }
-.picture1forLP {
-  background-color: blue;
-  height: 300px;
-  width: 350px;
+.partners p {
+  color: white;
 }
-.textbox1forLP {
+.pictureforLP {
   background-color: white;
-  height: 300px;
+  height: 302px;
   width: 350px;
 }
-
-.picture2forLP {
-  background-color: blue;
+.textboxforLP {
+  background-color: grey;
   height: 300px;
   width: 350px;
-}
-.textbox2forLP {
-  background-color: white;
-  height: 300px;
-  width: 350px;
-}
-
-.picture3forLP {
-  background-color: blue;
-  height: 300px;
-  width: 350px;
-}
-.textbox3forLP {
-  background-color: white;
-  height: 300px;
-  width: 350px;
+  border: 2px solid;
+  border-color: #116db6;
 }
 
 /* Til den orange skæv linje */
 .orangeline {
   margin-top: 90px;
   margin-bottom: 500px;
-  background-color: orange;
+  background-color: #ff8c00;
   height: 100px;
   width: auto;
   transform: rotate(-6deg);
 }
+.orangeline h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding-top: 25px;
+
+}
+
+/* Til footer */
 
 footer {
   background-color: #282828;
   height: 300px;
   width: 100%;
+}
+footer h5 {
+  color: white;
+  font-size: 30px;
 }
