@@ -52,42 +52,58 @@ nav li {
 /* Til Text og billederne til Landing Page */
 .textandpictureforLP {
   display: flex;
-
-  justify-content: center;
+  flex-direction: column;
   height: 100%;
   width: auto;
+  padding: 20px 100px 20px 100px;
 }
 /* Til par nr 1 */
 .partner1 {
-  
+padding-bottom: 10px;
 }
 .picture1forLP {
   background-color: blue;
-  height: 50px;
-  width: auto;
+  height: 300px;
+  width: 350px;
 }
 .textbox1forLP {
-  height: 50px;
-  width: auto;
+  background-color: red;
+  height: 300px;
+  width: 350px;
 }
 /* Til par nr 2*/
+.partner2 {
+  padding-bottom: 10px;
+}
 .picture2forLP {
   background-color: blue;
-  height: 50px;
-  width: auto;
+  height: 300px;
+  width: 350px;
 }
 .textbox2forLP {
-  height: 50px;
-  width: auto;
+  background-color: red;
+  height: 300px;
+  width: 350px;
 }
 
 /* Til par nr 3 */
+.partner3 {
+  padding-bottom: 10px;
+}
 .picture3forLP {
   background-color: blue;
-  height: 50px;
-  width: auto;
+  height: 300px;
+  width: 350px;
 }
 .textbox3forLP {
-  height: 50px;
+  background-color: red;
+  height: 300px;
+  width: 350px;
+}
+
+/* Til den orange skæv linje */
+.orangeline {
+  background-color: orange;
+  height: 60px;
   width: auto;
 }
