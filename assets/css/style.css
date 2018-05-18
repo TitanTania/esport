@@ -29,10 +29,9 @@ header img {
 
 header ul {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex: 1;
+  justify-content: space-around;
   margin: 0;
-
 }
 
 header li {
@@ -40,8 +39,6 @@ header li {
   margin: 0;
   color: white;
   display: flex;
-  padding-left: 250px;
-  padding-top: 40px;
   font-family: "Play", sans-serif;
   font-size: 20px;
 
