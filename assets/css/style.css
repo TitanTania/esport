@@ -31,7 +31,9 @@ header ul {
   display: flex;
   flex: 1;
   justify-content: space-around;
+  align-items: center;
   margin: 0;
+  padding-left: 0;
 }
 
 header li {
