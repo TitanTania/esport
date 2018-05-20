@@ -133,18 +133,25 @@ padding-bottom: 10px;
   flex-direction: column;
   font-family: "Play", sans-serif;
   justify-content: center;
-  max-width: 900px;
+  max-width: 1200px;
   style=overflow-y: scroll;
+  color: white;
+  background-color: grey;
+  margin: 10px;
+}
+
+.contactcontainer p {
+  margin: 20px;
 }
 
 
 input[text=text], textarea {
   border: 0.5px solid grey;
-  padding: 12px 20px;
-  margin: 10px 0 15px 0;
+  padding: 12px 10px;
+  margin: 10px 0 0 10px;
   display: flex;
-  max-width: 100%;
-
+  width: 900px;
+  border-radius: 7px;
 }
 
 /* Til footer */
