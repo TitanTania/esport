@@ -65,9 +65,25 @@ header li {
 }
 
 /* Til Banner */
-.mySlides{
+/*.mySlides{
   height: 423px;
+}*/
+
+.slideshow{
+  max-width: 50%;
+  overflow: hidden;
+  padding-bottom: 25%;
+  position: relative;
 }
+
+.slideshow img {
+  display:none;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 
 
 /* Til H1 ved landing page */
