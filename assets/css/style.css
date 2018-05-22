@@ -187,6 +187,21 @@ padding-bottom: 10px;
   border: 2px solid;
   border-color: #116db6;
   display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.textboxforbundles {
+  background-color: #ff8c00;
+  height: 50px;
+  width: 700px;
+  border: 2px solid;
+  border-color: #116db6;
+  border: 2px solid;
+  border-color: #303030;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .bundle {
   background-color: #ff8c00;
@@ -227,15 +242,24 @@ padding-bottom: 10px;
   flex-direction: column;
   font-family: "Play", sans-serif;
   justify-content: center;
-  max-width: 1200px;
-  style=overflow-y: scroll;
+  max-width: 1000px;
+  height: 800px;
   color: white;
   background-color: grey;
   margin: 10px;
+  align-items: center;
+  margin: 150px;
+
 }
 
 .contactcontainer p {
   margin: 20px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.contactcontainer h2 {
+  font-size: 50px;
 }
 
 
@@ -244,8 +268,10 @@ input[text=text] {
   padding: 12px 10px;
   margin: 10px 0 0 10px;
   display: flex;
-  width: 900px;
+  width: 100%;
   border-radius: 7px;
+  display: flex;
+  box-sizing: border-box;
 }
 
 input[type=submit] {
@@ -259,6 +285,7 @@ input[type=submit] {
   font-family: "Play", sans-serif;
   display: flex;
 
+<<<<<<< HEAD
 
 }
 
@@ -275,6 +302,8 @@ input[type=submit] {
 
 .riptide p {
   color: white;
+=======
+>>>>>>> b59341e32401562709aa0398370c5af32403cdb9
 }
 
 /* Til footer */
