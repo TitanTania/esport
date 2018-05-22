@@ -49,6 +49,10 @@ font-size: 20px;
 body{
 margin: 0;
 }
+
+nav {
+  z-index: 1;
+}
 .top-nav ul{
 display: flex;
 list-style: none;
@@ -121,6 +125,7 @@ display:flex;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  z-index: 0;
 }
 
 
