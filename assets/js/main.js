@@ -22,5 +22,13 @@ function addContact() {
   var bookingDate = document.getElementById("date").value;
   var bookingPersons = document.getElementById("persons").value
   var booking = new Booking(bookingName, bookingCity, bookingPhone, bookingMail, bookingDate, bookingPersons);
-  
+  bookings.push(booking);
+  localStorage.setItem("bookings", JSON.stringify(bookings));
+  window.location.reload();
+}
+
+var bookings = [];
+var loadedBookings = localStorage.getItem("bookings");
+if (loadedThreads != null) {
+  threads = JSON.parse(loadedBookings);
 }
