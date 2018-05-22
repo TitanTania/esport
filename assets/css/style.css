@@ -285,6 +285,25 @@ input[type=submit] {
   font-family: "Play", sans-serif;
   display: flex;
 
+<<<<<<< HEAD
+
+}
+
+/*T Riptide */
+.riptide {
+  background-color: #303030;
+  height: 210px;
+  width: 700px;
+  border: 2px solid;
+  border-color: #116db6;
+  display: flex;
+  align-items: center;
+}
+
+.riptide p {
+  color: white;
+=======
+>>>>>>> b59341e32401562709aa0398370c5af32403cdb9
 }
 
 /* Til footer */
