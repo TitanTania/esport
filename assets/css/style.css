@@ -116,6 +116,11 @@ padding-bottom: 10px;
   height: 302px;
   width: 350px;
 }
+.pictureforLP img {
+  height: 304px;
+  width: 350px;
+}
+
 .textboxforLP {
   background-color: grey;
   height: 300px;
