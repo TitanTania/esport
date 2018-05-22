@@ -260,7 +260,21 @@ input[type=submit] {
   display: flex;
 
 
+}
 
+/*T Riptide */
+.riptide {
+  background-color: #303030;
+  height: 210px;
+  width: 700px;
+  border: 2px solid;
+  border-color: #116db6;
+  display: flex;
+  align-items: center;
+}
+
+.riptide p {
+  color: white;
 }
 
 /* Til footer */
