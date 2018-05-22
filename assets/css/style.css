@@ -315,7 +315,7 @@ footer {
   color: white;
   background-color: #282828;
   font-family: "Play", sans-serif;
-  height: 200px;
+  height: 250px;
   width: 100%;
   border-top: 2px solid;
   border-color: #116db6;
@@ -324,13 +324,16 @@ footer {
 .contactinfo {
   display: flex;
   flex-direction: column;
+  width: 300px;
+  height: 100px;
+  margin: 0;
 }
 
- .socialmedia{
+ .socialmedia img{
+  width: 60px;
+  height: 60px;
   display: flex;
   flex-direction: row-reverse;
-}
-.socialmedia img {
-  width: 70px;
-  height: 70px;
+  margin: 0;
+  padding-left: 1350px;
 }
