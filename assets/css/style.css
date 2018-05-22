@@ -316,4 +316,18 @@ footer {
   width: 100%;
   border-top: 2px solid;
   border-color: #116db6;
+  margin: 0;
+}
+.contactinfo {
+  display: flex;
+  flex-direction: column;
+}
+
+ .socialmedia{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.socialmedia img {
+  width: 70px;
+  height: 70px;
 }
