@@ -281,7 +281,31 @@ input[type=submit] {
   font-family: "Play", sans-serif;
   display: flex;
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+
 }
+
+/*T Riptide */
+.riptide {
+  background-color: #303030;
+  height: 210px;
+  width: 700px;
+  border: 2px solid;
+  border-color: #116db6;
+  display: flex;
+  justify-content: center;
+}
+
+.riptide p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+
+}
+
+
+
 
 /* Til footer */
 
