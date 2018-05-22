@@ -6,46 +6,88 @@
 
 /* Til header */
 header {
-  background-color: #282828;
-  height: 100px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  border-bottom: 2px solid;
-  border-color: #116db6;
+background-color: #282828;
+height: 100px;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+border-bottom: 2px solid;
+border-color: #116db6;
 }
 header img {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  height: 50px;
-  width: 50px;
-  padding-top: 25px;
-  padding-left: 50px;
-  margin: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+height: 50px;
+width: 50px;
+padding-top: 25px;
+padding-left: 50px;
+margin: 0;
 
 }
 
 header ul {
-  display: flex;
-  flex: 1;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0;
-  padding-right: 30%;
-  padding-left: 25%;
+display: flex;
+flex: 1;
+justify-content: space-around;
+align-items: center;
+margin: 0;
+padding-right: 30%;
+padding-left: 25%;
 }
 
 header li {
-  list-style: none;
-  margin: 0;
-  color: white;
-  display: flex;
-  font-family: "Play", sans-serif;
-  font-size: 20px;
+list-style: none;
+margin: 0;
+color: white;
+display: flex;
+font-family: "Play", sans-serif;
+font-size: 20px;
+}
 
+body{
+margin: 0;
+}
+.top-nav ul{
+display: flex;
+list-style: none;
+margin: 0;
+padding: 0;
+background: #282828;
+}
+.top-nav li a, .col p{
+padding: 20px;
+margin: 0;
+color: #fff;
+text-decoration: none;
+display: block;
+}
 
+.col p {
+text-decoration: underline;
+}
+.top-nav li a:hover{
+background: rgba(0,0,0,.4);
+}
+.top-nav li{
+margin: 0;
+padding: 0;
+display: block;
+}
+.top-nav .inner-nav{
+display: none;
+position: absolute;
+left: 0;
+right: 0;
+background: #282828;
+color: #fff;
+}
+.top-nav li:hover .inner-nav{
+display: block;
+}
+.inner-nav>div{
+display:flex;
 }
 
 /* Til Logo med orange trekanter under header */
