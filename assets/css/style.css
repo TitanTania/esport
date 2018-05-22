@@ -187,6 +187,21 @@ padding-bottom: 10px;
   border: 2px solid;
   border-color: #116db6;
   display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.textboxforbundles {
+  background-color: #ff8c00;
+  height: 50px;
+  width: 700px;
+  border: 2px solid;
+  border-color: #116db6;
+  border: 2px solid;
+  border-color: #303030;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .bundle {
   background-color: #ff8c00;
