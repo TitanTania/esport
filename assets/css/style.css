@@ -197,6 +197,20 @@ input[text=text] {
   display: flex;
   width: 900px;
   border-radius: 7px;
+}
+
+input[type=submit] {
+  background-color: #282828;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  width: 250px;
+  font-size: 20px;
+  font-family: "Play", sans-serif;
+  display: flex;
+
+
 
 }
 
