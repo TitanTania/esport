@@ -297,14 +297,17 @@ input[type=submit] {
   border: 2px solid;
   border-color: #116db6;
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .riptide p {
   color: white;
-=======
->>>>>>> b59341e32401562709aa0398370c5af32403cdb9
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
 }
+
+
+
 
 /* Til footer */
 
