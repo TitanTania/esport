@@ -179,13 +179,14 @@ padding-bottom: 10px;
 }
 
 
-input[text=text], textarea {
+input[text=text] {
   border: 0.5px solid grey;
   padding: 12px 10px;
   margin: 10px 0 0 10px;
   display: flex;
   width: 900px;
   border-radius: 7px;
+
 }
 
 /* Til footer */
