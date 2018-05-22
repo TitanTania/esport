@@ -94,6 +94,14 @@ display: block;
 display:flex;
 }
 
+.box {
+  margin-left: 300px;
+}
+
+.box-end {
+  margin-left: 400px;
+}
+
 /* Til Logo med orange trekanter under header */
 .orangelogo {
   width: 100%;
@@ -176,7 +184,7 @@ padding-bottom: 10px;
   border-color: #116db6;
   overflow: auto;
 }
-.textboxforLP p, .textboxforBD p, .bundle p {
+.textboxforLP p, .textboxforBD p, .bundle p, .textboxforbundles {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
@@ -187,21 +195,6 @@ padding-bottom: 10px;
   border: 2px solid;
   border-color: #116db6;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-.textboxforbundles {
-  background-color: #ff8c00;
-  height: 50px;
-  width: 700px;
-  border: 2px solid;
-  border-color: #116db6;
-  border: 2px solid;
-  border-color: #303030;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
 }
 .bundle {
   background-color: #ff8c00;
@@ -243,30 +236,30 @@ padding-bottom: 10px;
   font-family: "Play", sans-serif;
   justify-content: center;
   max-width: 1000px;
-  height: 800px;
+  height: 1000px;
   color: white;
   background-color: grey;
-  margin: 10px;
   align-items: center;
   margin: 150px;
-
 }
 
 .contactcontainer p {
   margin: 20px;
   max-width: 800px;
   width: 100%;
+
 }
 
 .contactcontainer h2 {
   font-size: 50px;
+  width: 100%;
+  text-align: center;
 }
 
 
 input[text=text] {
   border: 0.5px solid grey;
   padding: 12px 10px;
-  margin: 10px 0 0 10px;
   display: flex;
   width: 100%;
   border-radius: 7px;
@@ -277,14 +270,17 @@ input[text=text] {
 input[type=submit] {
   background-color: #282828;
   color: white;
-  border: none;
+  border: 1px solid #ff8c00;
+  border-radius: 5px;
   cursor: pointer;
   padding: 15px;
-  width: 250px;
+  margin: 20px;
+  width: 230px;
   font-size: 20px;
   font-family: "Play", sans-serif;
   display: flex;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 }
@@ -304,6 +300,8 @@ input[type=submit] {
   color: white;
   font-family: "Open Sans", sans-serif;
   text-align: center;
+=======
+>>>>>>> 19925d5d21a7f153e0abec695f73d8a352c8a24a
 }
 
 
