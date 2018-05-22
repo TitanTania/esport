@@ -13,6 +13,14 @@ function carousel() {
     setTimeout(carousel, 4000); // Change image every 4 seconds
 }
 
+function Booking(bookingName, bookingCity, bookingPhone, bookingMail, bookingDate, bookingPersons) {
+	this.navn = bookingName;
+	this.city = bookingCity;
+	this.phone = bookingPhone;
+	this.mail = bookingMail;
+	this.date = bookingDate;
+  this.persons = bookingPersons;
+}
 
 function addContact() {
   var bookingName = document.getElementById("name").value;
@@ -29,6 +37,6 @@ function addContact() {
 
 var bookings = [];
 var loadedBookings = localStorage.getItem("bookings");
-if (loadedThreads != null) {
+if (loadedBookings != null) {
   threads = JSON.parse(loadedBookings);
 }
