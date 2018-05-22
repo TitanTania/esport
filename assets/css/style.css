@@ -94,6 +94,14 @@ display: block;
 display:flex;
 }
 
+.box {
+  margin-left: 200px;
+}
+
+.box-end {
+  margin-left: 300px;
+}
+
 /* Til Logo med orange trekanter under header */
 .orangelogo {
   width: 100%;
