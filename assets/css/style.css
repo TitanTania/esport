@@ -4,10 +4,6 @@
    overflow-x: hidden;
  }
 
- h1 {
-   font-family: "Play", sans-serif;
- }
-
 /* Til header */
 header {
 background-color: #282828;
@@ -52,10 +48,17 @@ font-family: "Play", sans-serif;
 font-size: 20px;
 }
 
-body{
-margin: 0;
+h1 {
+  font-family: "Play", sans-serif;
+  color: white;
+  text-align: center;
+  margin: 50px;
+  width: 400px;
 }
-
+.h1container {
+  display: flex;
+  justify-content: center;
+}
 nav {
   z-index: 1;
 }
@@ -75,6 +78,9 @@ text-decoration: none;
 display: block;
 }
 
+.top-nav {
+}
+
 .col p {
 text-decoration: underline;
 }
@@ -84,8 +90,6 @@ background: rgba(0,0,0,.4);
 }
 
 .top-nav li{
-margin: 0;
-padding: 0;
 display: block;
 }
 
@@ -109,28 +113,21 @@ justify-content: center;
 
 
 /*responsive nav*/
-
-.rep-nav a {
-  padding: 20px;
-  margin: 0;
-  color: #fff;
-  text-decoration: none;
-  display: block;
-}
-.resp-nav li {
+.resp-nav li, a {
   list-style: none;
   margin: 0;
   color: white;
   display: flex;
   font-family: "Play", sans-serif;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .resp-nav ul {
   display: none;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 20px;
   background: #282828;
 }
 
@@ -174,19 +171,6 @@ justify-content: center;
   top: 50%;
   transform: translateY(-50%);
   z-index: 0;
-}
-
-
-/* Til H1 ved landing page */
-.firstpartoftitle {
-  color: white;
-  display: flex;
-  justify-content: center;
-}
-.secondpartoftitle {
-  color: white;
-  display: flex;
-  justify-content: center;
 }
 
 /* Til Text og billederne til Landing Page */
@@ -417,33 +401,20 @@ footer {
 
   .resp-nav ul {
     display: flex;
-  }
-
-  .rep-nav a {
-    padding: 20px;
-    margin: 0;
-    color: #fff;
-    text-decoration: none;
-    display: block;
-  }
-  .resp-nav li {
-    list-style: none;
-    margin: 0;
-    color: white;
-    display: flex;
-    font-family: "Play", sans-serif;
-    font-size: 20px;
-  }
-
-  .resp-nav ul {
-    display: none;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    background: #282828;
+    justify-content: center;
   }
 
   .patners {
     flex-direction: column;
+  }
+
+  .orangeline {
+    height: 165px;
+    width: auto;
+    text-align: center;
+  }
+
+  .orangeline h2 {
+    padding: 5px;
   }
 }
