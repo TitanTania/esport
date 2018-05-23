@@ -142,7 +142,6 @@ display:flex;
 }
 
 
-
 /* Til H1 ved landing page */
 .firstpartoftitle {
   color: white;
@@ -160,17 +159,17 @@ display:flex;
   display: flex;
   justify-content: center;
 }
-.textandpictureforLP .partners .textboxforLP  :nth-child(2n) *:last-child{
-  order: -1;
-}
 
 .partners {
 padding-bottom: 10px;
 }
+
 .partners p {
   color: white;
-
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
+
 .pictureforLP {
   background-color: white;
   height: 302px;
@@ -189,20 +188,43 @@ padding-bottom: 10px;
   border-color: #116db6;
   overflow: auto;
 }
-.textboxforLP p, .textboxforBD p, .bundle p, .textboxforbundles {
+.textboxforLP p, .textboxforBD p, .bundle p, .textboxforbundles .bundle2 p {
   font-family: 'Open Sans', sans-serif;
-  text-align: center;
+
 }
+
 .textboxforBD {
-  background-color: #303030;
-  height: 210px;
-  width: 700px;
+  color: white;
   border: 2px solid;
   border-color: #116db6;
-  display: flex;
+  width: 700px;
+  text-align: center;
+
 }
+
+.bundletext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
 .bundle {
   background-color: #ff8c00;
+  height: 233px;
+  width: 233px;
+  border: 2px solid;
+  border-left-color: #303030;
+  border-top-color: #303030;
+  border-bottom-color: #303030;
+  border-right-color: #303030;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bundle2 {
+  background-color: #116DB6;
   height: 233px;
   width: 233px;
   border: 2px solid;
@@ -245,7 +267,13 @@ padding-bottom: 10px;
   color: white;
   background-color: grey;
   align-items: center;
-  margin: 30px 350px 30px;
+  margin: 0;
+}
+
+.booking {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
 }
 
 .contactcontainer p {
@@ -295,9 +323,11 @@ input[type=submit] {
   background-color: #303030;
   height: 210px;
   width: 700px;
+  margin: 0;
   border: 2px solid;
   border-color: #116db6;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -308,6 +338,19 @@ input[type=submit] {
 
 }
 
+.buttonriptide {
+  background-color: #282828;
+  color: white;
+  border: 1px solid #ff8c00;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 15px;
+  margin: 20px;
+  max-height: 60px;
+  font-size: 20px;
+  font-family: "Play", sans-serif;
+  display: flex;
+}
 
 
 
