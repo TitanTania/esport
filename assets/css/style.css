@@ -167,10 +167,25 @@ display:flex;
 .partners {
 padding-bottom: 10px;
 }
+
 .partners p {
   color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.bundletext {
+  display: flex;
+  flex-direction: column;
+  background-color: #303030;
+  width: 350px;
+  border: 2px solid;
+  border-color: #116db6;
+  color: white;
+  height: auto;
 
 }
+
 .pictureforLP {
   background-color: white;
   height: 302px;
@@ -189,20 +204,35 @@ padding-bottom: 10px;
   border-color: #116db6;
   overflow: auto;
 }
-.textboxforLP p, .textboxforBD p, .bundle p, .textboxforbundles {
+.textboxforLP p, .textboxforBD p, .bundle p, .textboxforbundles .bundle2 p {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
 .textboxforBD {
   background-color: #303030;
-  height: 210px;
+  height: auto;
   width: 700px;
   border: 2px solid;
   border-color: #116db6;
   display: flex;
+  flex-direction: column;
 }
 .bundle {
   background-color: #ff8c00;
+  height: 233px;
+  width: 233px;
+  border: 2px solid;
+  border-left-color: #303030;
+  border-top-color: #303030;
+  border-bottom-color: #303030;
+  border-right-color: #303030;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bundle2 {
+  background-color: #116DB6;
   height: 233px;
   width: 233px;
   border: 2px solid;
@@ -307,6 +337,19 @@ input[type=submit] {
 
 }
 
+.buttonriptide {
+  background-color: #282828;
+  color: white;
+  border: 1px solid #ff8c00;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 15px;
+  margin: 20px;
+  width: 230px;
+  font-size: 20px;
+  font-family: "Play", sans-serif;
+  display: flex;
+}
 
 
 
