@@ -272,7 +272,6 @@ padding-bottom: 10px;
 
 .booking {
   display: flex;
-  flex-direction: center;
   justify-content: center;
 }
 
