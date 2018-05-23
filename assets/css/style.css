@@ -202,17 +202,12 @@ padding-bottom: 10px;
 
 }
 
-/*
-.textboxforBD {
-  background-color: #303030;
-  color: white;
-  height: auto;
-  max-width: 700px;
-  border: 2px solid;
-  border-color: #116db6;
+.bundletext {
   display: flex;
   flex-direction: column;
-}*/
+  align-items: center;
+
+}
 
 .bundle {
   background-color: #ff8c00;
@@ -325,6 +320,7 @@ input[type=submit] {
   border: 2px solid;
   border-color: #116db6;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
