@@ -4,6 +4,10 @@
    overflow-x: hidden;
  }
 
+ h1 {
+   font-family: "Play", sans-serif;"
+ }
+
 /* Til header */
 header {
 background-color: #282828;
