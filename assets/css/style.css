@@ -111,6 +111,19 @@ display:flex;
 justify-content: center;
 }
 
+/*.box {
+  margin-left: 300px;
+}*/
+
+.top-nav {
+  margin-right: 160px;
+}
+
+.logo {
+  padding-right: 30px;
+}
+
+
 
 /*responsive nav*/
 .resp-nav li, a {
@@ -131,13 +144,6 @@ justify-content: center;
   background: #282828;
 }
 
-.box {
-  margin-left: 300px;
-}
-
-.box-end {
-  margin-left: 450px;
-}
 
 /* Til Logo med orange trekanter under header */
 .orangelogo {
