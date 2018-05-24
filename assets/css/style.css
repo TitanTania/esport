@@ -428,4 +428,7 @@ footer {
   .orangeline h2 {
     padding: 5px;
   }
+  .contactinfo {
+    align-items: center;
+  }
 }
