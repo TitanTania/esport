@@ -169,7 +169,7 @@ justify-content: center;
   width: 100%;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%); /*Defines a translation, using only the value for the Y-axis*/
   z-index: 0;
 }
 
