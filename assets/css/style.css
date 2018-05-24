@@ -404,14 +404,25 @@ footer {
     justify-content: center;
   }
 
-  .patners {
+  .textandpictureforLP, .partners, .textboxforLP, .pictureforLP, .pictureforLP img {
     flex-direction: column;
+    width: 100%;
+
+  }
+.textboxforLP {
+  height: 100%;
+  overflow: visible;
+}
+
+  .partners {
+    align-items: center;
   }
 
   .orangeline {
     height: 165px;
     width: auto;
     text-align: center;
+    margin: 0;
   }
 
   .orangeline h2 {
